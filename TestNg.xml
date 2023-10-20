@@ -1,0 +1,9 @@
+<suite name="TestNg" >
+    <parameter name="browser" value="chrome" />
+    <test name ="chromeTest" preserve-order="true">
+        <packages>
+            <package name="TestCase.UAE"/>
+            <package name="TestCase.Iraq"/>
+        </packages>
+    </test>
+    </suite>
